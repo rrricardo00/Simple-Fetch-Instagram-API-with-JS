@@ -1,0 +1,1 @@
+fetch('https://graph.instagram.com/me/media?fields=caption,id,media_type,media_url,permalink,thumbnail_url,timestamp,username&access_token=YOUR_TOKEN', {method: "GET"}).then(resp => resp.json()).then(resp => console.log(resp))
